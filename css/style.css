@@ -1,3 +1,7 @@
+.container {
+    height: auto;
+}
+
 .header {
     background-color: #ccc;
     width: 100%;
@@ -21,15 +25,92 @@
     float: left;
 }
 
-.footer {
-    background-color: #999;
+.content2 {
+    background-color: #ccc;
     width: 100%;
     height: auto;
     float: left;
 }
 
+.footer {
+    background-color: #333;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.footer_carrinho {
+    background-color: #333;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.produto {
+    background-color: #999;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.produto2 {
+    background-color: #999;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.produto3 {
+    background-color: #999;
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding-top: 20px;
+}
+
+.produto4 {
+    background-color: #999;
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding-top: 20px;
+}
+
+.btn_1 {
+    background-color: #0071e3;
+    border-radius: 30px;
+}
+
+.btn_2 {
+    background-color: #0071e3;
+    border-radius: 30px;
+}
+
+.btn_3 {
+    background-color: #0071e3;
+    border-radius: 30px;
+}
+
+.btn_4 {
+    background-color: #0071e3;
+    border-radius: 30px;
+}
+
+.produto_carrinho {
+    background-color: #999;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
 @media screen and(max-width: 600px) {
-    .header, .navbar, .content, .footer {
+    .header, .navbar, .content, .footer, .produto, .produto2, .produto3, .produto4, .btn_1, .btn_2, .btn_3, .btn_4 {
         width: 100%;
     }
 }
